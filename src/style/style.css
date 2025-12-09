@@ -1,0 +1,53 @@
+body {
+background: #0a0a0f;
+color: #e4e4e8;
+font-family: 'Cinzel', serif;
+margin: 0;
+}
+
+
+header {
+text-align: center;
+padding: 30px;
+}
+
+
+audio, video {
+width: 100%;
+margin: 20px 0;
+}
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+}
+
+
+img {
+width: 100%;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+
+.reiatsu:hover {
+transform: scale(1.03);
+}
+
+
+
+.bio img {
+float: right;
+width: 200px;
+margin-left: 20px;
+}
+
+
+
+.bio::after {
+content: "";
+display: block;
+clear: both;
+}
